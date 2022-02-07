@@ -1,0 +1,2129 @@
+
+  *{
+    margin: 0;
+  }
+
+
+
+/* HERO-SECTION */
+
+.Herosection{
+    width: 100vw;
+    height: 1407px;
+    background: #029F58;
+}
+
+
+.nav-icon{
+    display: none;
+    position: absolute;
+}
+
+.fas{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* navbar */
+
+
+.nav-bar{
+    height: 80px;
+    display: flex;
+}
+
+.nav-left{
+    flex: 4;
+}
+
+.nav-right{
+    flex: 6;
+    margin-top: 61px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 116.6%;
+    margin-right: 52px;
+    cursor: pointer;
+}
+
+.nav-logo{
+    width: 111px;
+    height: 40.44px;
+    margin-left: 119px;
+    margin-top: 47px;
+}
+
+/* heading */
+
+.heading{
+    position: absolute;
+    left: 120px;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 369px;
+}
+
+.heading h1{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 94.6%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* title */
+
+.title{
+    position: absolute;
+    width: 588px;
+    height: 60px;
+    left: 426px;
+    top: 629px;
+}
+
+.title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* button */
+
+.hero-buttons{
+    position: absolute;
+    top: 771px;
+    left: 447;
+    display: flex;
+    width: 546px;
+}
+
+.Playstorebtn{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+    margin-right: 26px;
+}
+
+.Playstorebtn button{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px 10px 19px;
+}
+
+
+.btncontent{
+    width: 264;
+    height: 34px;
+}
+
+.Playstorebtn i{
+    font-size: 40px;
+}
+
+.Appstorebtn i{
+    font-size: 40px;
+}
+
+.Appstorebtn button{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px 10px 19px;
+}
+
+/* images */
+
+.img1{
+    position: absolute;
+    width: 737px;
+    height: 1200.18px;
+    left: 156.15px;
+    top: 1068.56px;
+    transform: rotate(-22.73deg);
+    background: url('../assets/Black-Matte2.png');
+ 
+}
+
+.img2{
+    position: absolute;
+    width: 682px;
+    height: 1200px;
+    left: 275px;
+    top: 869px;
+    z-index: 1;
+    background: url('../assets/Black-Matte.png');
+}
+
+.img3{
+    position: absolute;
+    width: 737px;
+    height: 1200.18px;
+    left: 458.92px;
+    top: 1013.78px;
+    transform: rotate(22.37deg);
+    background: url('../assets/Black-Matte3.png');
+}
+
+/* ABOUT SECTION */
+
+.AboutSection{
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: rgb(247, 245, 245);
+    z-index: 3;
+}
+
+.about-heading{
+    position: absolute;
+    width: 582px;
+    height: 146px;
+    left: 122px;
+    top: 143px;
+}
+
+.about-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #007640;
+}
+
+.about-title{
+    position: absolute;
+    width: 683px;
+    height: 90px;
+    left: 122px;
+    top: 320px;
+}
+
+.about-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.about-img2{
+    position: absolute;
+    height: 191.71182250976562px;
+    width: 169.12478637695312px;
+    left: 47.497714996337891px;
+    top: 40.408203125px;
+    border-radius: 0px;
+    background:url('../assets/Group-7.png');
+    background-repeat: no-repeat;
+}
+
+.about-img1{
+    position: absolute;
+    height: 553.3735284040297px;
+    width: 489.51638196641267px;
+    left: 871.0516357421875px;
+    top: 0.753662109375px;
+    border-radius: 0px;
+    background: url('../assets/Group-6.png');
+    background-repeat: no-repeat;
+
+}
+
+/* INFLUENCERS 2 */
+
+.influencers{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 662px;
+    background: white;
+}
+
+
+.influencer-img{
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 129px;
+    top: 134px;
+    background: url('../assets/Fan-pill.png');
+}
+
+.influencer-left{
+   position: relative;
+}
+
+.influencer-right{
+    position: relative;
+}
+
+.influencers-heading{
+    position: absolute;
+    width: 481px;
+    height: 207px;
+    left: 129px;
+    top: 206px;
+}
+
+.influencers-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.influencers-title{
+    position: absolute;
+    width: 481px;
+    height: 120px;
+    left: 129px;
+    top: 445px;
+}
+
+.influencers-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;    
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+}
+
+
+.influ-img1{
+    position: absolute;
+    width: 402px;
+    height: 478.12px;
+    right: 176px;
+    top: 114px;
+    background: url('../assets/Group.png');
+
+}
+
+/* FANS */
+
+.fans{
+    display: flex;
+    width: 100%;
+    height: 662px;
+}
+
+.container1{
+    position: relative;
+    flex: 0.5;
+    background: #029F58;
+}
+
+.fan-img1{
+    position: absolute;
+width: 100px;
+height: 32px;
+left: 120px;
+top: 142px;
+background: url('../assets/Fan-pill.png');
+}
+
+.fan-img2{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 537px;
+top: 126px;
+background: url('../assets/Ellipse-1.png');
+}
+
+.fan-img2-img{
+    position: relative;
+    top: 20px;
+    left: 18px;
+    width: 28px;
+    height: 26px;
+    background: url('../assets/vector-2.png');
+}
+
+.fans-heading{
+    position: absolute;
+    width: 481px;
+    height: 136px;
+    left: 120px;
+    top: 228px;
+}
+
+.fans-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 100.1%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.fans-title{
+    position: absolute;
+    width: 481px;
+    height: 90px;
+    left: 120px;
+    top: 396px;
+}
+
+.fans-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;   
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.container2{
+    position: relative;
+    flex: 0.5;
+    background: rgb(236, 236, 236);
+}
+
+.fans-msg1{
+    position: absolute;
+    width: 513px;
+    height: 99px;
+    left: 87px;
+    top: 0px;
+    color: black;
+    background: white;
+}
+
+.fans-msg1 p{
+    position: absolute;
+    width: 143px;
+    height: 27px;
+    left: 221px;
+    top: 36px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.fans-img{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 140px;
+    top: 21px;
+    background: url('../assets/Ellipse.png');
+}
+
+.fans-msg2{
+    position: absolute;
+    width: 379px;
+    height: 114px;
+    left: 221px;
+    top: 152px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.fans-msg2 p{
+    padding: 18px 15px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.fans-msg3{
+    position: absolute;
+    width: 212px;
+    height: 78px;
+    left: 87px;
+    top: 296px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.fans-msg3 p{
+    padding: 15px 15px 36px 15px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.fans-msg4{
+    position: absolute;
+    width: 305px;
+    height: 105px;
+    left: 87px;
+    top: 395px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.fans-msg4 p{
+    padding: 15px 15px 36px 15px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.fans-type{
+    position: absolute;
+    width: 513px;
+    height: 99px;
+    left: 87px;
+    top: 563px;
+    background: #FFFFFD;
+}
+
+.type-message{
+    position: relative;
+    width: 441px;
+    height: 54px;
+    margin: 15px 57px 15px 36px;
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+
+.type-message p{
+    padding: 14px 151px 13px 15px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.fans-input{
+    width: 441px;
+    height: 54px;
+}
+
+.fans-input:focus{
+    outline: #007640;
+    border: 1px solid #007640;
+
+}
+
+.attach{
+    position: absolute;
+    width:28.1px;
+    height:28.13px;
+    top: 12.9px;
+    left: 348px;
+}
+
+.microphone{
+    position: absolute;
+    width:28.1px;
+    height:28.13px;
+    top: 13px;
+    left: 400px;
+    background: url('../assets/microphone.png');
+}
+
+.send{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 449px;
+    top: 20px;
+    background: url('../assets/Vector-send.png');
+
+}
+
+/* INFLUENCERS 1 */
+
+.influencer1{
+    display: flex;
+    width: 100%;
+    height: 781px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.influencer1-left{
+    flex: 0.5;
+    position: relative;
+}
+
+.influencer1-img{
+    position: absolute;
+width: 110px;
+height: 32px;
+left: 0px;
+top: 171px;
+background: url('../assets/Influencer-pill.png');
+}
+
+.influencer1-right{
+    flex: 0.5;
+    position: relative;
+}
+
+.influImg{
+    position: absolute;
+    width: 415px;
+    height: 568px;
+    left: 144px;
+    top: 94px;
+    background: url('../assets/Black-MatteINF.png');
+}
+
+.influ-heading{
+    position: absolute;
+    width: 481px;
+    height: 138px;
+    left: 0px;
+    top: 243px;
+}
+
+.influ-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.influ-title{
+    position: absolute;
+    width: 481px;
+    height: 90px;
+    left: 0px;
+    top: 413px;
+}
+
+.influ-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+}
+
+
+/* INFLUENCER 3 */
+
+.influencer3{
+    display: flex;
+    width: 100%;
+    height: 662px;
+    margin-top: -115px;
+}
+
+.colLeft{
+    position: relative;
+    flex: 0.5;
+    background:#2E2E2E ;
+}
+
+.left-wrapper{
+    position: absolute;
+    width: 513px;
+    height: 496px;
+    left: 120px;
+    top: -7px;
+    border: 15px solid #2E2E2E;
+    filter: drop-shadow(0px 10px 20px rgba(4, 4, 4, 0.2));
+    border-radius: 0px 0px 20px 20px;
+}
+
+.wrappercontainer{
+    position: relative;
+    margin: 180px 0px 0px 1px;
+    width: 514px;
+    height: 316px;
+    background: #363636;
+    border-radius: 20px;
+}
+
+.wrapperimg{
+    background: url('../assets/Ellipse2.png');
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 37px;
+    top: 73px;
+}
+
+.wrapper-title{
+    position: absolute;
+    width: 367px;
+    height: 60px;
+    left: 111px;
+    top: 73px;
+}
+
+.wrapper-buttons{
+    position: absolute;
+    left: 37px;
+    top: 177px;
+    width: 440;
+    display: flex;
+}
+
+.wrapper-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.declineBtn{
+    width: 206px;
+    height: 54px;
+    border: none;
+    border-radius: 8px;
+    background: red;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.acceptBtn{
+    width: 206px;
+    height: 54px;
+    border: none;
+    border-radius: 8px;
+    background: green;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.colRight{
+    position: relative;
+    top: 0;
+    flex: 0.5;
+    background:#201f1f ;
+}
+
+.influencer3-img1{
+    position: absolute;
+    width: 110px;
+    height: 32px;
+left: 120px;
+top: 151px;
+background: url('../assets/Influencer-pill.png');
+}
+
+
+.influencer3-img2{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 537px;
+    top: 134px;
+    background: url('../assets/Ellipse-1.png');
+}
+
+.influencer3-img2-img{
+    position: relative;
+    width: 30px;
+    height: 24px;
+    left: 18px;
+    top: 20px;
+    background: url('../assets/filter-1.png');
+}
+
+
+.colRight-heading{
+    position: absolute;
+    width: 481px;
+    height: 138px;
+    left: 120px;
+    top: 237px;
+}
+
+.colRight-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.colRight-title{
+    position: absolute;
+    width: 481px;
+    height: 120px;
+    left: 120px;
+    top: 407px;
+}
+
+.colRight-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+/* FEATURES SECTION */
+
+.features{
+    position: relative;
+    width: 100%;
+    height: 1909px;
+    background: #FFFFFF;
+    margin-right: 158px;
+}
+
+.featured-heading{
+    position: absolute;
+    width: 371px;
+    height: 138px;
+    left: 120px;
+    top: 130px;
+}
+
+.featured-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #007640;
+}
+
+.feature-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding-top: 275px;
+    padding-left: 169px;
+    padding-right: 358px;
+
+}
+
+
+.featuredimg{
+    width: 719px;
+    height: 1170.52px;
+    background: url('../assets/Black-Matte4.png');
+    background-repeat: no-repeat;
+}
+
+
+.featured-info{
+    position: relative;
+    width: 535px;
+    height: 544px;
+    margin: 90px auto;
+    margin-top: 156px;
+    margin-bottom: 50px;
+    padding:0px 20px 0px 54px;
+
+}
+
+.feature-circle{
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    width: 22px;
+height: 22px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50%;
+}
+
+.feature-circle1{
+    position: absolute;
+    top: 181px;
+    left: -15px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.feature-circle2{
+    position: absolute;
+    top: 374px;
+    left: -15px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.feature-info-line{
+    position: absolute;
+    top: 31px;
+    left: 2px;
+    width: 2px;
+    height: 170px;
+    background: url('../assets/Line.png');
+}
+
+.feature-info-line1{
+    position: absolute;
+    top: 205px;
+    left: 2px;
+    width: 2px;
+    height: 170px;
+    background: url('../assets/Line.png');
+}
+
+.feature-info-img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 12px;
+    width: 12px;
+    font-size: 10px;
+    background: url('../assets/Ellipse-dot.png');
+}
+
+.timeline{
+    padding: 10px 25px;
+    margin-bottom: 80px;
+}
+
+.timeline::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: #a1a1a1;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+
+.timeline h3{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 116.6%;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.timeline p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+}
+
+.feature-container{
+    position: absolute;
+    width: 1200px;
+    height: 623px;
+    left: 270px;
+    top: 1156px;
+    background: #029F58;
+    border-radius: 100px;
+}
+
+.container-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container-img{
+    position: absolute;
+    width: 359px;
+    height: 572px;
+    left: 103px;
+    top: 105px;
+    background: url('../assets/PngItem.png');
+    background-repeat: no-repeat;
+}
+
+.container-img-2{
+    position: relative;
+    width: 150px;
+    height: 268px;
+    left: 150px;
+    top: 44px;
+    background: url('../assets/luke-porter.png');
+    background-size: cover;
+}
+
+.container-info{
+    position: absolute;
+    width: 546px;
+    height: 82px;
+    left: 517px;
+    top: 135px;
+}
+
+.container-info-heading{
+    position: relative;
+    width: 490px;
+    height: 148px;
+    left: 0px;
+    top: 0px;
+}
+
+.container-info-heading h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 102.6%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.container-info-title{
+    position: relative;
+    width: 490px;
+    height: 30px;
+    left: 0px;
+    top: 30px;
+}
+
+.container-info-title p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.feature-buttons{
+    position: absolute;
+    top: 254px;
+    left: 0px;
+    display: flex;
+    width: 546px;
+}
+
+.playstore{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+}
+
+.playstore button{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px 10px 19px;
+}
+
+
+.feature-btncontent{
+    width: 264;
+    height: 34px;
+}
+
+.playstore i{
+    font-size: 40px;
+}
+
+.appstore i{
+    font-size: 40px;
+}
+
+.appstore button{
+    width: 260px;
+    height: 81px;
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px 10px 19px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    /* width: 100%; */
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(18, 18, 18, 0.3);
+    margin: 0px 120px;
+    /* overflow: hidden; */
+}
+
+.footer-top{
+    position: relative;
+    width: 892px;
+    height: 125px;
+    margin-left: 428px;
+    margin-top: 64px;
+}
+
+.footer-desc{
+    position: absolute;
+    width: 833px;
+    height: 45px;
+    left: 6px;
+    bottom: 110px;
+}
+
+.footer-desc h3{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #121212;
+}
+
+.form{
+    position: absolute;
+    width: 992px;
+    height: 56px;
+    left: 0px;
+    top: 69px;
+}
+
+.footer-input{
+    width: 712px;
+    height: 56px;
+    border: 1px solid rgba(18, 18, 18, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.footer_button{
+    width: 180px;
+    height: 56px;
+    background: #121212;
+    border-radius: 0px 10px 10px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-wrapper{
+    display: flex;
+    width: 1170px;
+    height: 260px;
+    margin: 80px 150px 80px 120px;
+}
+
+.footer-wrapper-item{
+    margin-top: -20px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    display: flex;
+
+}
+
+
+.logoimg1{
+    background: url('../assets/logoimg1.png');
+    background-repeat: no-repeat;
+    height: 46.94780349731445px;
+    width: 41.261695861816406px;
+    border-radius: 0px;
+}
+
+.logoimg2{
+    background: url('../assets/logoimg2.png');
+    height: 29.82657814025879px;
+    width: 72.86919403076172px;
+    border-radius: 0px;
+    margin-left: 10px;
+}
+
+.footer-group-icon{
+    display: flex;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: #F2F2F2;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.footer-item h3{
+    width: 108px;
+    height: 36px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #121212;
+}
+
+.footer-item a{
+    width: 151px;
+    height: 30px;
+    margin-bottom: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 165.4%;
+    letter-spacing: 0.02em;
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* RESPONSIVE DESIGN FOR MEDIUM SCREENS */
+
+
+@media screen and (max-width: 960px) {
+
+    /* HEROSECTION */
+
+    .Herosection{
+        width: 100%;
+        height: 900px;
+        background: #029F58;
+    }
+    
+    .nav-icon{
+        display: block;
+        position: absolute;
+        top: 49px;
+        right: 40px;
+    }
+    
+    .fas{
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+
+    .nav-right{
+        flex: 6;
+        margin-top: 61px;
+    }
+    
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        list-style: none;
+    }
+    
+    .nav-item{
+        font-size: 20px;
+    }
+    
+    .nav-logo{
+        width: 111px;
+        height: 40.44px;
+        margin-left: 19px;
+        margin-top: 47px;
+    }
+
+    .heading{
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        width: 500px;
+        height: 369px;
+    }
+    
+    .heading h1{
+        font-size: 40px;
+      
+    }
+    
+    /* title */
+    
+    .title{
+        position: absolute;
+        width: 488px;
+        height: 60px;
+        left: 46px;
+        top: 359px;
+    }
+    
+    .title p{
+        font-size: 20px;
+    }
+    
+/* button */
+
+.hero-buttons{
+    position: absolute;
+    top: 571px;
+    left: 120;
+    flex-direction: column;
+}
+
+.Playstorebtn{
+    margin-bottom: 29px;
+}
+
+.Playstorebtn button{
+    width: 260px;
+    height: 81px;
+    /* padding: 20px 50px; */
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btncontent{
+    width: 264;
+    height: 34px;
+}
+
+.Playstorebtn i{
+    font-size: 40px;
+}
+
+.Appstorebtn i{
+    font-size: 40px;
+}
+
+.Appstorebtn button{
+    width: 260px;
+    height: 81px;
+    /* padding: 20px 50px; */
+    background-color: #000000;
+    color: #F3F3F3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+    .img1{
+        display: none;
+    }
+    
+    .img2{
+        display: none;
+    }
+    
+    .img3{
+        display: none;
+    }
+
+    /* ABOUT SECTION */
+
+    .AboutSection{
+        position: relative;
+        width: 100%;
+        height: 570px;
+    }
+
+    .about-heading{
+        position: absolute;
+        width: 382px;
+        height: 146px;
+        left: 32px;
+        top: 143px;
+    }
+    
+    .about-heading h2{
+        font-size: 42px;
+    }
+    
+    .about-title{
+        width: 383px;
+        height: 90px;
+        left: 34px;
+        top: 320px;
+    }
+    
+    .about-title p{
+        font-size: 20px;
+    }
+
+    .about-img1{
+        display: none;
+    }
+
+
+    /* INFLUENCERS 2 */
+
+    .influencers{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 1200px;
+
+    }
+
+    .influencer-left{
+        position: relative;
+     }
+     
+     .influencer-right{
+         position: relative;
+     }
+     
+     .influencers-heading{
+         position: absolute;
+         width: 381px;
+         height: 207px;
+         left: 19px;
+         top: 156px;
+     }
+     
+     .influencers-heading h2{     
+        font-size: 48px;
+     }
+     
+     .influencers-title{
+         position: absolute;
+         width: 381px;
+         height: 120px;
+         left: 19px;
+         top: 345px;
+     }
+     
+     
+     .influ-img1{
+         position: absolute;
+         width: 402px;
+         height: 478.12px;
+         right: 40px;
+         top: 10px;
+         
+     }
+
+     .influencer-img{
+        left: 129px;
+        top: 64px;
+
+    }
+
+
+
+
+
+    /* FANS */
+
+    .fans{
+        flex-direction: column;
+        width: 100%;
+        height: 1300px;
+    }
+
+
+    .container1{
+        position: relative;
+        flex: 0.5;
+        background: #029F58;
+    }
+    
+    .fans-heading{
+        position: absolute;
+        width: 481px;
+        height: 136px;
+        left: 20px;
+        top: 108px;
+    }
+    
+    .fans-heading h2{
+        font-size: 68px;
+    }
+    
+    .fans-title{
+        position: absolute;
+        width: 381px;
+        height: 90px;
+        left: 20px;
+        top: 296px;
+    }
+    
+    .fans-title p{
+        font-size: 20px;
+    }
+    
+    .container2{
+        position: relative;
+        flex: 0.5;
+    }
+    
+    .fans-msg1{
+        position: absolute;
+        width: 513px;
+        height: 99px;
+        left: 27px;
+        top: 0px;
+        color: black;
+        background: white;
+    }
+
+    .fan-img1{
+        left: 20px;
+        top: 62px;
+    }
+    
+    .fan-img2{
+        left: 307px;
+        top: 46px;
+
+    }
+    
+    .fan-img2-img{
+        position: relative;
+        top: 20px;
+        left: 18px;
+    }
+    
+    .fans-msg1 p{
+        position: absolute;
+        width: 143px;
+        height: 27px;
+        left: 221px;
+        top: 36px;
+        font-size: 18px;
+    }
+    
+    .fans-img{
+        position: absolute;
+        width: 58px;
+        height: 58px;
+        left: 140px;
+        top: 21px;
+    }
+    
+    .fans-msg2{
+        position: absolute;
+        width: 379px;
+        height: 114px;
+        left: 121px;
+        top: 152px;
+    
+    }
+    
+    .fans-msg2 p{
+        font-size: 18px;
+    
+    }
+    
+    .fans-msg3{
+        position: absolute;
+        width: 212px;
+        height: 78px;
+        left: 27px;
+        top: 296px;
+    }
+    
+    .fans-msg3 p{
+        font-size: 18px;
+    }
+    
+    .fans-msg4{
+        position: absolute;
+        width: 305px;
+        height: 105px;
+        left: 27px;
+        top: 395px;
+    }
+    
+    .fans-msg4 p{
+        font-size: 18px;
+    
+    }
+    
+    .fans-type{
+        position: absolute;
+        width: 443px;
+        height: 99px;
+        left: 27px;
+        top: 563px;
+    }
+    
+    .type-message{
+        position: relative;
+        width: 301px;
+        height: 54px;
+        margin: 15px 57px 15px 36px;
+        border-radius: 10px;
+    }
+
+    .fans-input{
+        width: 341px;
+        height: 54px;
+    }
+    
+    .fans-input:focus{
+        outline: #007640;
+        border: 1px solid #007640;
+    
+    }
+    
+    .type-message p{
+        padding: 14px 151px 13px 15px;
+        font-size: 18px;
+    }
+    
+
+    .attach{
+        top: 12.9px;
+        left: 248px;
+    }
+    
+    .microphone{
+ 
+        top: 13px;
+        left: 300px;
+    }
+    
+    .send{
+        left: 349px;
+        top: 20px;
+   
+    
+    }
+
+
+
+
+
+
+/* INFLUENCERS 1 */
+
+    .influencer1{
+        flex-direction: column;
+        width: 100%;
+        height: 1160px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+
+    
+    .influImg{
+        position: absolute;
+        width: 415px;
+        height: 568px;
+        left: 19px;
+        top: 94px;
+  
+    }
+
+    .influencer1-img{
+
+    left: 50px;
+    top: 121px;
+    
+    }
+    
+    .influ-heading{
+        position: absolute;
+        width: 381px;
+        height: 138px;
+        left: 30px;
+        top: 183px;
+    }
+    
+    .influ-heading h2{
+        font-size: 68px;
+    }
+    
+    .influ-title{
+        position: absolute;
+        width: 381px;
+        height: 90px;
+        left: 30px;
+        top: 353px;
+    }
+    
+    .influ-title p{
+        font-size: 20px;
+    }
+    
+    
+
+
+
+    /* INFLUENCER 3 */
+
+    .influencer3{
+        flex-direction: column;
+        height: 1000px;
+        margin-top: 5px;
+    }
+
+    .colLeft{
+        position: relative;
+        top: 0;
+        flex: 0.5;
+        background:#2E2E2E ;
+    }
+    
+    .left-wrapper{
+        position: absolute;
+        width: 424px;
+        height: 496px;
+        left: 30px;
+        top: 7px;
+    }
+    
+    .wrappercontainer{
+        position: relative;
+        margin: 180px 0px 0px 1px;
+        width: 414px;
+        height: 416px;
+    }
+    
+    .wrapperimg{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 17px;
+        top: 73px;
+    }
+    
+    .wrapper-title{
+        position: absolute;
+        width: 367px;
+        height: 60px;
+        left: 101px;
+        top: 73px;
+    }
+    .wrapper-buttons{
+        position: absolute;
+        left: 87px;
+        top: 127px;
+        width: 440;
+        height: 200px;
+        flex-direction: column;
+    }
+    
+    .wrapper-title p{
+        font-size: 15px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    
+    .declineBtn{
+        width: 206px;
+        height: 54px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .acceptBtn{
+        width: 206px;
+        height: 54px;
+        font-size: 20px;
+    }
+    
+    
+    .colRight{
+        position: relative;
+        top: 0;
+        flex: 0.5;
+        background:#201f1f ;
+    }
+    
+    .colRight-heading{
+        position: absolute;
+        width: 381px;
+        height: 138px;
+        left: 20px;
+        top: 127px;
+    }
+    
+    .colRight-heading h2{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 101.1%;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+    
+    .colRight-title{
+        position: absolute;
+        width: 381px;
+        height: 120px;
+        left: 20px;
+        top: 257px;
+    }
+    
+    .colRight-title p{
+        font-size: 20px;
+    }
+
+    .influencer3-img1{
+        left: 20px;
+        top: 61px;
+    }
+    
+    
+    .influencer3-img2{
+        left: 337px;
+        top: 40px;
+    }
+    
+    .influencer3-img2-img{
+        left: 18px;
+        top: 20px;
+    }
+
+
+        /* FEATURES SECTION */
+
+    .features{
+        position: relative;
+        width: 100%;
+        height: 1209px;
+        margin-right: 58px;
+}
+
+    .featured-heading{
+        position: absolute;
+        width: 171px;
+        height: 138px;
+        left: 20px;
+        top: 30px;
+    }
+
+    .featured-heading h2{
+        font-size: 38px;
+    }
+
+
+    .feature-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-top: 25px;
+        padding-left: 59px;
+        padding-right: 58px;
+    }
+
+    .featured-info{
+        position: relative;
+        width: 335px;
+        height: 544px;
+        margin: 90px auto;
+        margin-top: 156px;
+        margin-bottom: 50px;
+        padding:0px 20px 0px 54px;
+    
+    }
+    
+    .timeline{
+        padding: 10px 25px;
+        margin-bottom: 80px;
+    }
+    
+
+    
+    .timeline h3{
+        font-size: 25px;
+    
+    }
+    
+    .timeline p{
+        font-size: 18px;
+    }
+    
+
+    .featuredimg{
+        display: none;
+        width: 100%;
+        height: 870.52px;
+        margin-right: 150px;
+    }
+
+    .feature-container{
+        position: absolute;
+        width: 100%;
+        height: 523px;
+        left: 20px;
+        top: 756px;
+        border-radius: 0px;
+    }
+
+    .container-wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-img{
+        display: none;
+        position: absolute;
+        width: 359px;
+        height: 572px;
+        left: 103px;
+        top: 105px;
+    }
+
+    .container-img-2{
+        display: none;
+        position: relative;
+        width: 150px;
+        height: 268px;
+        left: 150px;
+}
+
+    .container-info{
+        position: absolute;
+        width: 546px;
+        height: 582px;
+        left: 57px;
+        top: 135px;
+    }
+
+    .container-info-heading{
+        position: relative;
+        width: 390px;
+        height: 148px;
+        left: 0px;
+        top: -100px;
+    }
+
+    .container-info-heading h2{
+        font-size: 42px;
+    }
+
+    .container-info-title{
+        position: relative;
+        width: 290px;
+        height: 30px;
+        left: 0px;
+        top: -120px;
+    }
+
+    .container-info-title p{
+    font-size: 25px;
+    }
+
+
+    .feature-buttons{
+        position: absolute;
+        top: 140px;
+        left: 0;
+        flex-direction: column;
+    }
+
+    .playstore{
+        margin-bottom: 15px;
+    }
+
+
+    .btncontent{
+        width: 264;
+        height: 34px;
+    }
+
+
+
+/* FOOTER */
+
+    .footer{
+        width: 100%;
+        height: 1300px;
+        margin: 100px 0px;
+        /* margin-top: 250px; */
+        padding-top: 20px;
+    }
+
+    .footer-top{
+        position: relative;
+        width: 80%;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 0px;
+        /* margin-bottom: 200px; */
+    }
+
+    .footer-desc{
+        position: absolute;
+        width: 333px;
+        height: 45px;
+        left: 6px;
+        top: 0; 
+    }
+
+    .footer-desc h3{
+        font-size: 20px;
+    }
+
+
+
+    .form{
+        position: absolute;
+        width: 80%;
+        height: 156px;
+        left: 0px;
+        top: 69px;
+    }
+
+    .footer-input{
+        width: 100%;
+        height: 56px;
+    }
+
+    .footer_button{
+        width: 100%;
+        height: 56px;
+        font-size: 16px;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        width: 1170px;
+        height: 100%;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .footer-logo{
+        margin-bottom: 50px;
+    }
+
+    .footer-wrapper-item{
+        margin-top: 20px;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    .footer-item{
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .footer-item h3{
+        width: 108px;
+        height: 36px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        
+    }
+    
+    .footer-item a{
+        width: 151px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+
+
+
+}
+
+
+
+
+/* RESPONSIVE DESIGN FOR SMALL SCREENS */
+
+@media screen and (max-width: 540px) {
+
+}
